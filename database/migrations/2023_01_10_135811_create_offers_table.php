@@ -21,14 +21,14 @@ class CreateOffersTable extends Migration
             $table->string('name');
             $table->string('city');
             $table->string('wantedStudyLevel');
+            $table->string('wantedExperience');
             $table->string('domain');
             $table->string('salaryRange');
             $table->string('typeOfWorking');
-            $table->string('offerTitle');
-            $table->string('offerDescription');
-            $table->string('recruiterWebsite');
+            $table->string('offer_title');
+            $table->longText('offer_description');
+            $table->string('recruiter_website');
             $table->string('questions');
-            $table->string('wantedExperience');
             $table->timestamps();
         });
     }

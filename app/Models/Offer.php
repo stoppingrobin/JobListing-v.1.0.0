@@ -11,8 +11,6 @@ class Offer extends Model
 
 
     protected $fillable = [
-        'id_recruiter',
-        'id-company',
         'numberOfPlaces',
         'name',
         'city',
@@ -21,9 +19,9 @@ class Offer extends Model
         'domain',
         'salaryRange',
         'typeOfWorking',
-        'offer-title',
-        'offer-description',
-        'recruiter-website',
+        'offer_title',
+        'offer_description',
+        'recruiter_website',
         'questions'
     ];
 }
